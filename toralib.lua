@@ -1166,6 +1166,7 @@ local function createColorPickerWindow(option)
 		ScaleType = Enum.ScaleType.Slice,
 		SliceCenter = Rect.new(100, 100, 100, 100),
 		SliceScale = 0.03,
+		Visible = false,
 		Parent = library.base
 	})
 
